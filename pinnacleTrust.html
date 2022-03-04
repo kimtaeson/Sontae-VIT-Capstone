@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pinnacleTrust.css">
+    <script src="./pinnacleTrust.js"></script>
+    <title>Houses to Homes</title>
+</head>
+
+<body>
+    <div id="topHeader">
+        <div id="logo">
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/n2A0HBvdZFHW0sHx7pBe9w/l.jpg" alt="logo">
+        </div>
+
+        <div id="header">
+            <div>
+                <h1 style="font-size: 3vw;"> &nbsp; Houses to Homes</h1>
+            </div>
+
+            <div id="llc">
+                <p>Pinnacle Trust LLC</p>
+                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Gimhae_Kim_clan_family_seal.svg/1200px-Gimhae_Kim_clan_family_seal.svg.png" alt="gkim"> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Buyers</a>
+        <a href="#">Sellers</a>
+        <a href="#">Agents</a>
+    </div>
+
+
+    <div id="main">
+        <img id="background" src="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg?ssl=1" alt="background">
+
+        <div id="content">
+            <div id="infographic1">
+                <img src="https://z57.com/wp-content/uploads/2019/08/Z57-8-Benefits-of-Working-With-a-Real-Estate-Agent-1024x1024.png" alt="infographic2">
+            </div>
+
+            <div id="mortCalc">
+                <h1 id="mortCalcHead">Mortgage Calculator</h1><br>
+                <p>
+                    Use this simple home mortgage calculator to calculate monthly payments on mortgage rates. Payment examples shown do not include amounts for taxes and insurance premiums.
+                </p>
+                <br>
+                <form>
+                    <table>
+                        <tr>
+                            <td class="labels">Principal Loan Amount</td>
+                            <td class="textbox"><input type="text" id="principal" onclick="calculatePayment()"></td>
+                        </tr>
+                        <tr>
+                            <td class="labels">Mortgage Period (years)</td>
+                            <td class="textbox"><input type="text" id="termOfLoan" onclick="calculatePayment()"></td>
+                        </tr>
+                        <tr>
+                            <td class="labels">Annual Interest Rate</td>
+                            <td class="textbox"><input type="text" id="annualInterestRate" onclick="calculatePayment()"></td>
+                        </tr>
+                        <tr>
+                            <td class="labels">Monthly Mortgage Payment</td>
+                            <td class="textbox"><input type="number" id="payment" name="monthlyPayment"></td>
+
+                        </tr>
+                        <tr>
+                            <td class="button"><button onclick="calculatePayment()">Calculate</button></td>
+                            <td class="button"><input type="reset" name="Reset"></td>
+                        </tr>
+                    </table>
+                </form>
+                <br>
+                <p>
+                    <i>*Note: please contact your financial insitution for final monthy payments, as the can and will vary from lender to lender. This calculator should only be used for comparison purposes</i>
+                </p>
+            </div>
+
+            <div id="infographic2">
+                <img src="https://assets.website-files.com/602aa5676021240953c8c040/60363b08a3ab8c32727b8e44_Parker-Associates-Newsletter-Blog-September-2018-renovation-value.png" alt="infoGraphic">
+            </div>
+
+            <div class="para">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam similique, libero nesciunt nisi ratione enim velit cupiditate veritatis ut in animi distinctio facere doloribus atque reiciendis expedita impedit vero? Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Ipsam voluptatem perspiciatis reiciendis pariatur vitae quisquam totam facere tenetur nisi quibusdam provident cupiditate corrupti sequi fugit et dolor doloribus, a sunt.
+                </p>
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quisquam similique, libero nesciunt nisi ratione enim velit cupiditate veritatis ut in animi distinctio facere doloribus atque reiciendis expedita impedit vero? Lorem, ipsum dolor sit amet
+                    consectetur adipisicing elit. Ipsam voluptatem perspiciatis reiciendis pariatur vitae quisquam totam facere tenetur nisi quibusdam provident cupiditate corrupti sequi fugit et dolor doloribus, a sunt.
+                </p>
+                </p>
+            </div>
+        </div>
+
+
+        <div id="adSpace">
+            <div class="adSpaceHead">
+                <h1>Featured Listing</h>
+            </div>
+
+            <img src="https://photos.zillowstatic.com/fp/2213dcab3ac3ee80e2ed34f179927439-cc_ft_768.webp" alt="1062Front">
+            <img src="https://photos.zillowstatic.com/fp/49a59e1910743c2006f54169aa163ccd-uncropped_scaled_within_1536_1152.webp" alt="1062LR">
+
+            <div class="listPrice">
+                <h2>$510,000.00</h2> &nbsp;&nbsp; 3bd | 3br | 1925 sqft
+            </div>
+
+            <div>
+                <br>
+                <li class="pending">
+                    <b>PENDING</b>
+                </li>
+                <br>
+                <div class="stAddress">
+                    <p>
+                        1062 Emil Pl. Allen, Tx 75013
+                    </p>
+                    <p>
+                        Est. payment: $3,131
+                    </p>
+                </div>
+            </div>
+
+            <div class="form">
+                <br>
+                <h2>
+                    List with us <i><u>NOW</u>!</i>
+                </h2>
+                <br>
+
+                <form action method="post">
+                    <table>
+                        <tr>
+                            <td class="labels">Full Name &nbsp;&nbsp; </td>
+                            <td class="textbox"><input type="text" placeholder="Enter name"></td>
+                        </tr>
+                        <tr>
+                            <td class="labels">Phone Number &nbsp;&nbsp; </td>
+                            <td class="textbox"><input type="text" placeholder="Enter number"></td>
+                        </tr>
+                        <tr>
+                            <td class="labels">Email &nbsp;&nbsp; </td>
+                            <td class="textbox"><input type="text" placeholder="Enter Email"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="button" input type="button"><button onclick="">Submit</td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        Created by&nbsp; <b>Sontae Kim</b>
+
+        <p class="licenseNote">
+            <i>A Licensed Real Estate Agent in Texas and Virginia</i>
+        </p>
+    </div>
+</body>
+
+</html>
+
+
+<!-- <div class="realtor">
+                <img src="https://swflrealtors.com/images/2021/06/29/nar-safety-promo-resources-2020_300x250_3.png" alt="realtor">
+            </div> -->
